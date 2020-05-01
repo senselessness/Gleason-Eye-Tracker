@@ -6,7 +6,7 @@ This allows the use of an Xbox360 controller to the movements, save the position
 
 On Raspberry - Python
 
-![alt text](https://photos.app.goo.gl/Usm5GYE4x1BUAbNR6 "Video")
+![alt text](https://photos.app.goo.gl/Usm5GYE4x1BUAbNR6)
 
 ![alt text](https://photos.google.com/photo/AF1QipNKCOlW63NCF2-pPGXLx5ASZDCTXfb-b-1Czzdl "Image")
 
@@ -14,7 +14,7 @@ On Raspberry - Python
 
 ![alt text](https://photos.google.com/photo/AF1QipMnj0JLYOb8js5eL0XGgMGc628eKw4dTjkn_AIM "Image")
 
-![alt text](https://photos.google.com/photo/AF1QipM817ArRBrfUDhFQOLVGem3UhO8xqb2koStZ9JZ "Full System")
+![alt text](https://photos.app.goo.gl/Usm5GYE4x1BUAbNR6 "Full System")
 
 Helpful Links: 
 
