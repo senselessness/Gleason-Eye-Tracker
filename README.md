@@ -19,10 +19,13 @@ Note: Far Servos are only hooked up to provide organization. They are non functi
 Helpful Links: 
 
 Adafruit Servo Controller:
+
 https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/using-the-adafruit-library
 
 Control your Raspberry Pi by using a wireless Xbox 360 controller
+
 https://tutorials-raspberrypi.com/raspberry-pi-xbox-360-controller-wireless/
 
 Bechele
+
 http://bechele.de/pages/english/79-0.html
