@@ -12,7 +12,7 @@ On Raspberry - Python
 
 ![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200421_174052.jpg)
 
-![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200430_101328.jpg)
+![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200430_101328.jpg "Far Servos Connected aren't programed or hooked up")
 
 Helpful Links: 
 
