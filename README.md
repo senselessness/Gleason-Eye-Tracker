@@ -14,6 +14,8 @@ On Raspberry - Python
 
 ![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200430_101328.jpg "Far Servos Connected aren't programed or hooked up")
 
+Note: Far Servos are only hooked up to provide organization. They are non functional.
+
 Helpful Links: 
 
 Adafruit Servo Controller:
