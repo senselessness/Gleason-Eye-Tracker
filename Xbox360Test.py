@@ -6,13 +6,19 @@ import glob
 import colorama
 from colorama import Fore, Back, Style
 
+#Assigns how many channels there are
 kit = ServoKit(channels=16)
+#Sets pulse width range of each servo
+#Determines the range of how far it will rotate when assigning an angle
 kit.servo[0].set_pulse_width_range(500,3400)
 kit.servo[1].set_pulse_width_range(500,3400)
 kit.servo[2].set_pulse_width_range(500,3400)
 kit.servo[3].set_pulse_width_range(500,3400)
 kit.servo[4].set_pulse_width_range(500,3400)
-
+#Assign Angles to the servos. These are Safe angles.
+#Servo 0 and 1 control the vertical eye movement
+#Servo 2 and 3 controls horizontal movement
+#Servo 4 controls eye pitch
 ServoAngleVert = 45
 ServoAngleHorz = 0
 ServoAngleCenter = 180
@@ -21,14 +27,16 @@ kit.servo[1].angle = ServoAngleVert
 kit.servo[2].angle = ServoAngleHorz
 kit.servo[3].angle = ServoAngleHorz
 kit.servo[4].angle = ServoAngleCenter
-
+#Assigns Joy to the xbox object
 joy = xbox.Joystick()
 
+#This will ensure you don't get an error if you try and run the a saved .txt if you haven't selected one yet
 Assigned = False
-
+#Instructions on proper use
 print(Fore.MAGENTA, '\tInstructions for use\n\tUp and Down on Dpads cotnrol vertical movement of eyes\n\tLeft and right control horizontal movement\n\tX and B control eye pitch\n\tY dicatates the document you will be writing to\n\tA saves position\n\tStart reads and moves to saved positions\n\tBack ends program', Style.RESET_ALL)
-
+#Runs loop till back button is pressed
 while not joy.Back():
+	#Binds Keys
 	Up = joy.dpadUp()
 	Down = joy.dpadDown()
 	Left = joy.dpadLeft()
@@ -38,7 +46,9 @@ while not joy.Back():
 	AButton = joy.A()
 	YButton = joy.Y()
 	StartButton = joy.Start()
-
+	#As you hold the button on the dpad, the angle of the servo will change in one degree
+	#Also includes checks to make sure you are not exceeding bounds
+	#Includes X and B button as well
 	if Up == 1 and ServoAngleVert <= 180:
 		ServoAngleVert += 1
 	elif Down == 1 and ServoAngleVert >= 0:
@@ -59,7 +69,7 @@ while not joy.Back():
 		ServoAngleCenter -= 1
 	if ServoAngleCenter >= 0 and ServoAngleCenter <= 180:
 		kit.servo[4].angle = ServoAngleCenter
-
+	#Determines the file wanting to be edited. Should be ran before start
 	if YButton == 1:
 		Decision = "t"
 		while Decision != "a" and Decision != "w":
@@ -74,7 +84,7 @@ while not joy.Back():
 					Recording = open(DocName + '.txt',"w")
 				Recording.close()
 			print("Will be writing to: ", DocName + "\n")
-
+	#Writes to selected file
 	if AButton == 1:
 		if Assigned == True:
 			try:
@@ -92,7 +102,8 @@ while not joy.Back():
 				time.sleep(.1)
 		else:
 			print("File hasn't been assigned. Please Press Y\n")
-
+	#Start button will read selected user file and execute the recorded positions
+	#3 Second Delay to allow servos to reach the desired position. May want extend time period for scans
 	if StartButton == 1:
 		myFiles = glob.glob('*.txt')
 		print(myFiles)
@@ -121,6 +132,6 @@ while not joy.Back():
 					print("Done Reading Commands\n")
 					Recording.close()
 					break
-
+	#Time.sleep is important so only one press is recorded.
 	time.sleep(.1)
 joy.close()
