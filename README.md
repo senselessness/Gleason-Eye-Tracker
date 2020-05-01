@@ -6,15 +6,15 @@ This allows the use of an Xbox360 controller to the movements, save the position
 
 On Raspberry - Python
 
-![alt text](https://photos.app.goo.gl/Usm5GYE4x1BUAbNR6)
+![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200421_174041.jpg)
 
-![alt text](https://photos.google.com/photo/AF1QipNKCOlW63NCF2-pPGXLx5ASZDCTXfb-b-1Czzdl "Image")
+![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200421_174045.jpg)
 
-![alt text](https://photos.google.com/photo/AF1QipM2K8EblXKasDNqdn2EpFcC5AICl1lnouJ-6Dck "Image")
+![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200421_174052.jpg)
 
-![alt text](https://photos.google.com/photo/AF1QipMnj0JLYOb8js5eL0XGgMGc628eKw4dTjkn_AIM "Image")
+![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200430_101328.jpg)
 
-![alt text](https://photos.app.goo.gl/Usm5GYE4x1BUAbNR6 "Full System")
+![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/VID_20200429_212432~3.mp4)
 
 Helpful Links: 
 
