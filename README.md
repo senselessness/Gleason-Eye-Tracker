@@ -14,8 +14,6 @@ On Raspberry - Python
 
 ![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/IMG_20200430_101328.jpg)
 
-![alt text](https://github.com/senselessness/Gleason-Eye-Tracker/blob/master/ME%20416/VID_20200429_212432~3.mp4)
-
 Helpful Links: 
 
 Adafruit Servo Controller:
