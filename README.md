@@ -1,7 +1,7 @@
   
 WSU - ME 416 - Spring 2020
 
-Software to control a designed outlined by bechele.de. 
+Software to control a design outlined by bechele.de. 
 This allows the use of an Xbox360 controller to the movements, save the position or sequence of positions to a text file, then read and react to a text file.
 
 On Raspberry - Python
@@ -22,3 +22,5 @@ https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/us
 Control your Raspberry Pi by using a wireless Xbox 360 controller
 https://tutorials-raspberrypi.com/raspberry-pi-xbox-360-controller-wireless/
 
+Bechele
+http://bechele.de/pages/english/79-0.html
